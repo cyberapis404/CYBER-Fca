@@ -1,14 +1,14 @@
 {
-  "name": "@mdsagormunshi/fca-sagor-remake",
+  "name": "@islamickcyberchat/fca-cyber-rajib",
   "version": "31.42.01",
-  "description": "Facebook Chat Api Remake by Md Sagor Munshi",
+  "description": "Facebook Chat Api make by Md Jahid Hasan Rajib",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
     "lint": "./node_modules/.bin/eslint **.js",
     "prettier": "prettier utils.js src/* --write"
   },
-  "author": "Md Sagor Munshi, ALvee Ahmed",
+  "author": "Md Jahid Hasan Rajib",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MdSagorMunshi/fca-sagor-remake/issues"
