@@ -19,11 +19,11 @@ Note ! If You Want To Share This Api Please See The Document At [Here](https://g
 
 If You Want To Use It, Download It By:
 ```bash
-npm i fca-sagor-remake
+npm i fca-cyber-rajib
 ```
 or
 ```bash
-npm install fca-sagor-remake
+npm install fca-cyber-rajib
 ```
 
 It Will Load Into node_modules (Your Lib) - Note Replit Won't Show Where to Find
@@ -32,11 +32,11 @@ It Will Load Into node_modules (Your Lib) - Note Replit Won't Show Where to Find
 
 If You Want To Use The Latest Version Or Update Then Go To Terminal Or Command Prompt Enter :
 ```bash
-npm install fca-sagor-remake@latest
+npm install fca-cyber-rajib@latest
 ```
 Or
 ```bash
-npm i fca-sagor-remake@latest
+npm i fca-cyber-rajib@latest
 ```
 
 ## If You Want To Test Api
@@ -47,7 +47,7 @@ Please Use With Demo Account => [Facebook Whitehat Accounts](https://www.faceboo
 ## Using
 
 ```javascript
-const login = require("fca-sagor-remake"); // get from lib
+const login = require("fca-cyber-rajib"); // get from lib
 
 // log in
 login({email: "Gmail Account", password: "Your Facebook Password"}, (err, api) => {
@@ -78,7 +78,7 @@ You Need To Go To Mirai.js File, Then Find The Line
      var login = require('depending on bot');
      /* Maybe :
          var login = require('@maihuybao/fca-Unofficial');
-         var login = require('fca-sagor-get');
+         var login = require('fca-cyber-get');
          var login = require('fca-unofficial-force');
      ...
      */
@@ -87,7 +87,7 @@ You Need To Go To Mirai.js File, Then Find The Line
 And Replace It With:
 
 ```js
-     var login = require('fca-sagor-remake')
+     var login = require('fca-cyber-rajib')
 ```
 
 Then Run As Normal!
@@ -108,7 +108,7 @@ __Instructions With Appstate__
 
 ```js
 const fs = require("fs");
-const login = require("fca-sagor-remake");
+const login = require("fca-cyber-rajib");
 
 var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // info tk
 
@@ -125,4 +125,4 @@ Or Easier (Professional) You Can Use => [c3c-fbstate](https://github.com/c3cbot/
 
 ## FAQS
 
-FAQS => [Link](https://github.com/MdSagorMunshi/Fca-Saxal-Remake#FAQS)
+FAQS => [Link](https://github.com/cyberapis404/Fca-Saxal-rajib#FAQS)
