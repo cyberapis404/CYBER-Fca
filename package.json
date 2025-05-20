@@ -11,12 +11,12 @@
   "author": "Md Jahid Hasan Rajib",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MdSagorMunshi/fca-sagor-remake/issues"
+    "url": "https://github.com/cyberapis404/fca-cyber-rajib/issues"
   },
-  "homepage": "https://github.com/MdSagorMunshi/fca-sagor-remake#readme",
+  "homepage": "https://github.com/cyberapis404/fca-cyber-rajib#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/MdSagorMunshi/fca-sagor-remake.git"
+    "url": "git:https://github.com/cyberapis404/fca-cyber-rajib.git"
   },
   "dependencies": {
     "aes-js": "latest",
@@ -79,9 +79,8 @@
     }
   },
   "keywords": [
-    "fca sagor",
-    "fca-sagor-remake",
-    "sagor fca",
-    "sagor"
+    "fca cyber",
+    "fca-cyber-rajib    " fca",
+    "cyber"
   ]
 }
