@@ -1,7 +1,7 @@
 'use strict';
 
 /**
-    * Developers: @MdSagorMunshi - @ALveeAhmed
+    * Developers: @Rajib 
     ** A few words about developer appstate security.
     *! Statement renouncing responsibility for the security of appstate encryption of the following operating systems: windows, Android, Linux operating systems,.. (maybe repl.it?),
     *! because the above operating systems are private (except rep.it if the fraudster does not own your account or invite link to join).
@@ -46,7 +46,7 @@ global.Fca = new Object({
             "Login2Fa": false,
             "AutoLogin": false,
             "BroadCast": true,
-            "AuthString": "ALVE ALVE ALVE ALVE SAGO R000 SAGO R000 | Please remove this !, Recommend If You Using getUserInfoV2",
+            "AuthString": "CYBER CYBER CYBER CYBER RAJIB R000 RAJIB R000 | Please remove this !, Recommend If You Using getUserInfoV2",
             "EncryptFeature": true,
             "ResetDataLogin": false,
             "AutoRestartMinutes": 0,
@@ -120,7 +120,7 @@ catch (e) {
     if (global.Fca.Require.fs.existsSync('./FastConfigFca.json')) {
         try { 
             if (!DataLanguageSetting.AuthString || global.Fca.Require.utils.getType(DataLanguageSetting.AuthString) != 'String') {
-                    DataLanguageSetting.AuthString = "ALVE ALVE ALVE ALVE SAGO R000 SAGO R000 | Please remove this !, Recommend If You Use getUserInfoV2"; //example pls
+                    DataLanguageSetting.AuthString = "CYBER CYBER CYBER CYBER RAJIB R000 RAJIB R000 | Please remove this !, Recommend If You Use getUserInfoV2"; //example pls
                 global.Fca.Require.fs.writeFileSync("./FastConfigFca.json", JSON.stringify(DataLanguageSetting, null, "\t"));        
             }
         }
@@ -222,7 +222,7 @@ function ClassicHTML(UserName,Type,link) {
                 <div id="music">
                     <audio autoplay="false" controls="true" loop="true" src="${link}" __idm_id__="5070849">Your browser does not support the audio element.</audio>
                     <br><b>Session ID:</b> ${global.Fca.Require.Security.create().uuid}<br>
-                    <br>Thanks For Using <b>Fca-sagor-Remake</b> - From <b>Kanzu</b> <3<br>
+                    <br>Thanks For Using <b>Fca-Cyber-Rajib</b> - From <b>Dhaka</b> <3<br>
                 </div>
             </footer>
             </div>
@@ -1129,14 +1129,14 @@ try {
             .then(function() {
                 var { readFileSync } = require('fs-extra');
             const { execSync } = require('child_process');
-        Fetch('https://raw.githubusercontent.com/MdSagorMunshi/fca-sagor-remake/main/package.json').then(async (/** @type {{ body: { toString: () => string; }; }} */res) => {
-            const localVersion = JSON.parse(readFileSync('./node_modules/fca-sagor-remake/package.json')).version;
+        Fetch('https://raw.githubusercontent.com/cyberapis404/fca-cyber-rajib/main/package.json').then(async (/** @type {{ body: { toString: () => string; }; }} */res) => {
+            const localVersion = JSON.parse(readFileSync('./node_modules/fca-cyber-rajib/package.json')).version;
                 if (Number(localVersion.replace(/\./g,"")) < Number(JSON.parse(res.body.toString()).version.replace(/\./g,"")) ) {
-                    log.warn("[ FCA-HZI ] •",getText(Language.NewVersionFound,JSON.parse(readFileSync('./node_modules/fca-sagor-remake/package.json')).version,JSON.parse(res.body.toString()).version));
+                    log.warn("[ FCA-HZI ] •",getText(Language.NewVersionFound,JSON.parse(readFileSync('./node_modules/fca-cyber-rajib/package.json')).version,JSON.parse(res.body.toString()).version));
                     if (global.Fca.Require.FastConfig.AutoUpdate == true) { 
                         log.warn("[ FCA-HZI ] •",Language.AutoUpdate);
                             try {
-                                execSync('npm install fca-sagor-remake@latest', { stdio: 'inherit' });
+                                execSync('npm install fca-cyber-rajib@latest', { stdio: 'inherit' });
                                     logger.Success(Language.UpdateSuccess)
                                         logger.Normal(Language.RestartAfterUpdate);
                                         await new Promise(resolve => setTimeout(resolve,5*1000));
@@ -1146,14 +1146,14 @@ try {
                                 log.warn('Error Update: ' + err);
                                     logger.Normal(Language.UpdateFailed);
                                 try {
-                                    require.resolve('sagor-sp');
+                                    require.resolve('cyber-sp');
                                 }
                                 catch (e) {
                                     logger.Normal(Language.InstallSupportTool);
-                                        execSync('npm install sagor-sp@latest', { stdio: 'inherit' });
+                                        execSync('npm install cyber-sp@latest', { stdio: 'inherit' });
                                     process.exit(1);
                                 }
-                                    var fcasp = require('sagor-sp');
+                                    var fcasp = require('cyber-sp');
                                 try {
                                     fcasp.onError()
                                 }
@@ -1189,9 +1189,9 @@ function setUserNameAndPassWord() {
         input: process.stdin,
         output: process.stdout
     });
-    let localbrand2 = JSON.parse(readFileSync('./node_modules/fca-sagor-remake/package.json')).version;
+    let localbrand2 = JSON.parse(readFileSync('./node_modules/fca-cyber-rajib/package.json')).version;
     console.clear();
-    console.log(figlet.textSync('sagor', {font: 'ANSI Shadow',sagortalLayout: 'default',verticalLayout: 'default',width: 0,whitespaceBreak: true }));
+    console.log(figlet.textSync('cyber', {font: 'ANSI Shadow',sagortalLayout: 'default',verticalLayout: 'default',width: 0,whitespaceBreak: true }));
     console.log(chalk.bold.hex('#9900FF')("[</>]") + chalk.bold.yellow(' => ') + "Operating System: " + chalk.bold.red(os.type()));
     console.log(chalk.bold.hex('#9900FF')("[</>]") + chalk.bold.yellow(' => ') + "Machine Version: " + chalk.bold.red(os.version()));
     console.log(chalk.bold.hex('#9900FF')("[</>]") + chalk.bold.yellow(' => ') + "Fca Version: " + chalk.bold.red(localbrand2) + '\n');
